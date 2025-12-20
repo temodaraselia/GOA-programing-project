@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+button {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border: 0cm;
+
+
+}
