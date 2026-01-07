@@ -1,0 +1,46 @@
+.button {
+    border: 0cm;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 118, 228);
+    transition: 0.3s;
+    
+
+
+}
+
+
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+
+
+.button1 {
+    background-color: blue;
+    border-radius: 1cm;
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+.i {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+.info {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right
+
+
+}
+

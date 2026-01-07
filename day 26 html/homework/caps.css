@@ -1,0 +1,27 @@
+.button {
+    transition: 0.3s;
+    border: 0cm;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 118, 228);
+
+
+
+}
+
+.button:hover {
+    transform: scale(1.2);
+
+}
+
+
+.img {
+    transition: 0.3s;
+
+
+}
+
+.img:hover{
+    transform: scale(1.1);
+}

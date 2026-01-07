@@ -1,0 +1,64 @@
+.Nbutton {
+    border: 0cm;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 118, 228);
+    transition: 0.3s;
+
+
+
+
+}
+
+.Nbutton:hover {
+    transform: scale(1.2);
+
+
+}
+
+.cars {
+    transition: 0.3s;
+    border-radius: 1cm;
+
+
+}
+
+.cars:hover {
+    transform: scale(1.2);
+
+}
+
+
+img {
+    transition: 0.3s;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.map {
+    vertical-align: middle;
+    display: inline-block;
+    
+    
+
+}
+
+.f {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    
+
+}
+
+
+
+
+
+
