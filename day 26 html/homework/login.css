@@ -13,6 +13,7 @@
 
 .button:hover {
     transform: scale(1.2);
+  
 
 
 }
@@ -20,7 +21,10 @@
 form {
     background-color: rgba(0, 0, 0, 0.8);
     width: 20%;
-    border-radius: 1cm;transition: 0.3s;
+    border-radius: 5cm;
+    transition: 0.3s;
+    border: solid 5px red; 
+    
     
 
 
@@ -28,6 +32,12 @@ form {
 
 form:hover {
     transform: scale(1.1);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 5px blue; 
+ 
+    
+    
 }
 
 .label {
@@ -56,6 +66,7 @@ form:hover {
 }
 .b:hover {
     transform: scale(1.2);
+    background: linear-gradient(blue);
     
 
 }
