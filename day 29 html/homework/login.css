@@ -1,0 +1,63 @@
+.reg {
+    border: solid 1px;
+    background-color: rgb(37, 233, 37);
+    border-radius: 5cm;
+    transition: 0.3s;
+    width: 25%;
+}
+
+
+.reg:hover {
+    border: solid 1px;
+    background-color: rgb(47, 255, 47);
+    
+    
+   
+
+}
+input {
+    border-color: black;
+    color: black
+
+}
+
+
+form {
+    transition: 0.3s;
+
+}
+
+form:hover {
+    font-size: 17px;
+}
+
+
+.s {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0cm;
+    border-radius: 1cm;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.s:hover{
+    transform: scale(1.1);
+}
+
+placeholder {
+    color: black;
+
+}
+
+.apple {
+    border-radius: 1cm;
+    border: solid black;
+    width: 5%;
+    transition: 0.3s;
+   
+}
+
+.apple:hover {
+    width: 0.5%;
+}

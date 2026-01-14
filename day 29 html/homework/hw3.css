@@ -1,0 +1,32 @@
+nav {
+    text-align: right;
+
+
+}
+
+.b {
+    color: white;
+    background-color: rgb(6, 235, 6);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0cm;
+    border-radius: 1cm;
+    transition: 0.3s;
+}
+
+.b:hover {
+    transform: scale(1.1);
+    background-color: green;
+    
+
+
+}
+.img {
+    border-radius: 1cm;
+    transition: 0.3s;
+
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
