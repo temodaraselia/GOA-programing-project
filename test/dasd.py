@@ -289,21 +289,51 @@
 
 # print(find_outlier([2, 4, 6, 8, 10, 3]))
 
-def find_outlier(i):
-    even=[]
-    odd=[]
-    for x in i:
-        if x % 2 == 0:
-            even.append(x)
-        else:
-            odd.append(x)
-    if len(even)==1:
-        return even[0]
-    else:
-        return odd[0]
+# def find_outlier(i):
+#     even=[]
+#     odd=[]
+#     for x in i:
+#         if x % 2 == 0:
+#             even.append(x)
+#         else:
+#             odd.append(x)
+#     if len(even)==1:
+#         return even[0]
+#     else:
+#         return odd[0]
         
 
 
 
 
-print(find_outlier([2, 4, 6, 8, 10, 3]))
+# print(find_outlier([2, 4, 6, 8, 10, 3]))
+
+# def count_by(x, n):
+#     result = []
+#     result.append(x)
+#     s = x*n
+#     while x!=s:
+#         x+=x
+#         result.append(x)
+#     return result
+
+# print(count_by(1,10))
+
+
+
+
+# def name_shuffler(s):
+#     result =s.split()
+#     result1 = result[::-1]
+#     result2 = " ".join(result1)
+#     return result2
+
+
+# print(name_shuffler('john McClane'))
+
+
+def find_short(s):
+    result = s.split()
+    return len(min(result,key=len))
+
+print(find_short("lets talk about javascript the best language"))
