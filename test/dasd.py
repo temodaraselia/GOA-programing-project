@@ -332,8 +332,42 @@
 # print(name_shuffler('john McClane'))
 
 
-def find_short(s):
-    result = s.split()
-    return len(min(result,key=len))
+# def find_short(s):
+#     result = s.split()
+#     return len(min(result,key=len))
 
-print(find_short("lets talk about javascript the best language"))
+# print(find_short("lets talk about javascript the best language"))
+
+
+
+
+
+# def high_and_low(num):
+#     numbers = num.split()
+#     result = []
+#     for i in numbers:
+#         t = int(i)
+#         result.append(t)
+#     return max(result),min(result)
+
+
+
+# print((high_and_low("1 2 3 4 5")))
+
+
+
+
+def tower_builder(n):
+    result = []
+    tower = "  *  "
+    floor = []
+    floor.append(tower)
+   
+    for i in range(1,n+1): 
+        floor.append(tower*i)
+        continue
+    return floor
+        
+        
+        
+print(tower_builder(3))
