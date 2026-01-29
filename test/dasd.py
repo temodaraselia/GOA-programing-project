@@ -357,17 +357,18 @@
 
 
 
-def tower_builder(n):
-    result = []
-    tower = "  *  "
-    floor = []
-    floor.append(tower)
+# def tower_builder(n):
+#     result = []
+#     tower = "  *  "
+#     floor = []
+#     floor.append(tower)
    
-    for i in range(1,n+1): 
-        floor.append(tower*i)
-        continue
-    return floor
+#     for i in range(1,n+1): 
+#         floor.append(tower*i)
+#         continue
+#     return floor
         
         
         
-print(tower_builder(3))
+# print(tower_builder(3))
+
