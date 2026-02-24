@@ -1,3 +1,4 @@
+import random
 # def grow(arr):
 #     total=1
 #     for i in arr:
@@ -376,5 +377,35 @@
 # print(r(5,5))
 
 
-list1 = [1,1,1,2,3,4,5,6,7]
-print(list1.__sizeof__())
+# list1 = [1,2,3]
+# set1 = {1,2,3}
+# dict1 = {
+#     1:2
+# }
+# tuple1 = (1,2,3)
+# print(list1.__sizeof__())
+# print(set1.__sizeof__())
+# print(dict1.__sizeof__())
+# print(tuple1.__sizeof__())
+
+
+# def rps(j,p):
+#     print("Rock--Paper,Scissors")
+#     if p == j:
+#         return "Draw!"
+#     elif p == 'rock' and j == 'scissors':
+#         return "Player 1 won!"
+#     elif p == 'scissors' and j == 'paper':
+#         return "Player 1 won!"
+#     elif p == 'paper' and j == 'rock':
+#         return "Player 1 won!"
+#     else:
+#         return "Jarvis won!"
+# a = "rock"
+# b = "paper"
+# c = "scissors"
+# j = random.choice([a,b,c])
+# p = input("Enter:").lower()
+# print(rps(j,p))
+
+
