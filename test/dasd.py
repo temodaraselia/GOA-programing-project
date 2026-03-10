@@ -409,3 +409,31 @@ import random
 # print(rps(j,p))
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# numbers=["1","2","3","4"]
+# result = []
+# for i in numbers:
+#     if type(i) == str:
+#         result.append(int(i))
+# print(result)
+

@@ -1,0 +1,158 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+
+}
+
+
+.line {
+    width: 2000px;
+    height: 1px;
+    background-color: black;
+
+}
+button {
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    color: blue;
+    text-decoration-color: black;
+    text-shadow: 5px 5px 7px black;
+    transform: scale(1.1);
+
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+
+}
+.banner1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+
+
+}
+
+.B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bb,.bbb {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    align-items: center;
+    transition: 0.3s;
+
+
+
+}
+
+.bb {
+    position: relative;
+    right: 30px;
+    
+}
+
+.bbb {
+    position: relative;
+    left: 30px;
+}
+
+
+
+.bb:hover {
+    box-shadow: 0px 0px 20px black;
+    transform: scale(1.1);
+    
+
+}
+
+.bbb:hover {
+    box-shadow: 0px 0px 20px black;
+    transform: scale(1.1);
+
+    
+    
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+
+}
+
+.ca{
+    box-shadow: 0px 0px 20px black;
+    transition: 0.3s;
+}
+
+.ca:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px black;
+
+}
+
+
+footer {
+    background-color: rgb(40, 40, 40);
+
+
+}
+
+.ff {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1500px;
+    bottom: 100px;
+    gap: 20px;
+
+
+
+}
+
+.bi {
+    position: relative;
+    left: 500px;
+    width: 200px;
+
+}
+.f1 {
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    transition: 0.3s;
+
+
+
+}
+
+.f1:hover {
+    text-shadow: 5px 5px 7px white;
+
+}
