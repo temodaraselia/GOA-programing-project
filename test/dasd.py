@@ -436,4 +436,3 @@ import random
 #     if type(i) == str:
 #         result.append(int(i))
 # print(result)
-
