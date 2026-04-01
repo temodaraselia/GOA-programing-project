@@ -97,20 +97,19 @@
 #     print(number3,"udidesi ricxvia")
 
 
-def calculator(x,y,op):
-    if op == "+":
-        return x + y
-    elif op == "-":
-        return x - y
-    elif op == "*":
-        return x * y
-    else:
-        return x // y
+# def calculator(x,y,op):
+#     if op == "+":
+#         return x + y
+#     elif op == "-":
+#         return x - y
+#     elif op == "*":
+#         return x * y
+#     else:
+#         return x // y
     
-x = int(input("enter number:"))
-y = int(input("enter number:"))
-op = input("enter operator:")
-print(calculator(x,y,op))
-
+# x = int(input("enter number:"))
+# y = int(input("enter number:"))
+# op = input("enter operator:")
+# print(calculator(x,y,op))
 
 
