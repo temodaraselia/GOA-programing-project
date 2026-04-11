@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 300px;
+            
+
+        }
+        .item {
+            background-color: red;
+            border: 1px double blue;
+            border-radius: 10px;
+            font-size: 30px;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            box-shadow: 5px 5px 5px black;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 0.5s;
+
+        }
+
+        .item:hover {
+            transform: translate(100px, 50px);
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- 1) გამოიყენეთ transform თვისება და გადააადგილეთ ელემენტი საწყისი პოზიციიდან მარჯვნივ $100px$-ით და ქვემოთ $50px$-ით.-->
+
+
+    <div class="box">
+        <div class="item">Hello</div>
+    </div>
+    
+</body>
+</html>
