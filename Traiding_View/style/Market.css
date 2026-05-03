@@ -1,0 +1,84 @@
+#ci {
+    transition: 0.3s;
+    margin-top: 100px;
+}
+#ci:hover {
+    color: navy;
+
+
+}
+
+
+
+
+.mini_market {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.Me {
+    transition: 0.5s;
+    border: 1px solid lightgray;
+
+
+}
+
+.Me:hover {
+    box-shadow:  0px 0px 20px black;
+    border-radius: 15px;
+
+}
+#m_grafik {
+    transition: 0.5s;
+    border: 1px solid lightgray;
+
+}
+
+#m_grafik:hover {
+    box-shadow: 0px 0px 10px black;
+
+}
+.ads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mar {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s;
+
+}
+
+.mar:hover {
+    color: blue;
+
+}
+
+@media screen and(max-width: 500px){
+    .Me {
+        width: 100px;
+        height: 40px;
+
+    }
+
+    .mini_market {
+        width: 450px;
+
+    }
+    .l {
+        width: 400px;
+
+    }
+    header {
+        width: 400px;
+
+    }
+
+
+
+}

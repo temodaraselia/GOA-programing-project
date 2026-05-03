@@ -1,0 +1,384 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+    position: relative;
+    left: 300px;
+    padding-top: 10px;
+    align-items: center;
+
+}
+.n {
+    display: flex;
+    position: relative;
+    left: -350px;
+    gap: 30px;
+    align-items: center;
+
+}
+
+#inp1 {
+    background-color: rgb(71, 70, 70);
+    border-radius: 15px;
+    border: 0px;
+    height: 30px;
+    color: lightgray;
+
+}
+
+.bt1 {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+
+
+}
+
+.bt1:hover {
+    background-color: rgb(99, 99, 99);
+    border-radius: 20px;
+    padding: 3px;
+
+}
+.log {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#sign {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    transition: 0.5s;
+}
+
+#sign:hover {
+    transform: scale(1.1);
+}
+
+#login {
+    transition: 0.5s;
+}
+
+#login:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: black;
+    max-width: 1200px;
+}
+
+
+.Brokers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.bro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 300px;
+    gap: 20px;
+    
+
+}
+
+#bro_h1 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    transform: translateX(600px);
+
+    
+
+}
+
+#bro_h2 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    transform: translateX(600px);
+  
+    
+
+}
+
+.bro_btn {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 10px;
+    border: 0px;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+.bro_btn:hover {
+    background-color: rgb(71, 71, 71);
+
+}
+
+.B_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card_main {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 350px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 50%);
+    box-shadow: inset 7px 0px 25px rgb(127, 127, 127);
+    border: 1px solid white;
+    border-radius: 35px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    margin: 50px
+
+}
+
+.c1 {
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+
+}
+
+.c2 {
+    color: rgb(116, 116, 116);
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+
+.card1 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.e,.o,.s {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.brb {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    transition: 0.5s;
+}
+
+.brb:hover {
+    transform: rotate(360deg);
+
+}
+
+#rt {
+    color: white;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#bt1 {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    border: 0px;
+    transition: 0.5s;
+
+}
+
+#bt2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+#bt1:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+
+#bt2:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.hhh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.asd {
+    color: white;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.lll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ll {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.ff {
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.gg{
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.lol {
+    position: relative;
+    left: 300px;
+
+}
+
+footer {
+    margin-top: 50px;
+
+}
+
+#big_f {
+    color: rgb(252, 252, 252);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90px;
+    animation-name: slow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes slow {
+    0% {
+        opacity: 70%;
+        text-shadow: 0px 0px 20px white;
+
+
+    }
+    20% {
+        opacity: 80%;
+        text-shadow: 0px 0px 30px white;
+
+  
+    }
+    50% {
+        opacity: 90%;
+        text-shadow: 0px 0px 40px white;
+
+  
+    }
+    100% {
+        text-shadow: 0px 0px 50px white;
+     
+  
+    }
+
+
+
+
+}
+
+.ftl {
+    transition: 0.5s;
+
+}
+
+.ftl:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 15px;
+
+
+}
+
+.ftlogo {
+    transition: 0.5s;
+
+}
+
+.ftlogo:hover {
+    transform: scale(1.5,1.5);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
+
+.line {
+    width: 1880px;
+    height: 2px;
+    background-color: lightgray;
+
+}
+
