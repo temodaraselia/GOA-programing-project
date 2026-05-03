@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            animation-name: first;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes first {
+            0% {
+                transform: translateY(200px);
+
+            }
+            50% {
+                transform: translateX(200px);
+
+            }
+            75% {
+                transform: scale(2,2);
+
+            }
+            100% {
+                transform: translateX(-200px);
+                transform: translateY(-200px);
+            }
+
+
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 1) შექმენით რამე ელემენტი, ჯერ ჩავიდეს ქვემოთ, მერე მარჯვნივ 200 პიქსელით, ზომა ორჯერ გაიზარდოს და დაუბრუნდეს საწყის პოზიციას-->
+     <div></div>
+    
+</body>
+</html>
